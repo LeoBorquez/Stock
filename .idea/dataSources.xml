@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Rails Stock: development" uuid="77da8140-9d05-4b45-b9f7-92726a9c5cf8">
+    <data-source source="LOCAL" name="Rails StockTracker: development" uuid="77da8140-9d05-4b45-b9f7-92726a9c5cf8">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/Stock_development</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/StockTracker_development</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="Rails Stock: test" uuid="9660bab7-8021-4044-b44a-23c22a58e5cf">
+    <data-source source="LOCAL" name="Rails StockTracker: test" uuid="9660bab7-8021-4044-b44a-23c22a58e5cf">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/Stock_test</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/StockTracker_test</jdbc-url>
     </data-source>
-    <data-source source="LOCAL" name="Rails Stock: production" uuid="6894f125-0948-4b85-a3bd-45714347a084">
+    <data-source source="LOCAL" name="Rails StockTracker: production" uuid="6894f125-0948-4b85-a3bd-45714347a084">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/Stock_production</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/StockTracker_production</jdbc-url>
     </data-source>
   </component>
 </project>
