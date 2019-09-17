@@ -7,7 +7,7 @@
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/StockTracker_development</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/stock_tracker_development</jdbc-url>
     </data-source>
     <data-source source="LOCAL" name="Rails StockTracker: test" uuid="9660bab7-8021-4044-b44a-23c22a58e5cf">
       <driver-ref>postgresql</driver-ref>
