@@ -1,0 +1,8 @@
+class Stock < ApplicationRecord
+
+  def self.new_from_lookup(ticker_symbol)
+    StockQuote::Stock.new(api_key: 'pk_d5d0395ac86d4801955d4677f7da1a0e')
+    lookep_up_stock = StockQuote::Stock.quote(ticker_symbol)
+    new(name: lookep_up_stock.company_name, ticker: lookep_up_stock.symbol, last_price: lookep_up_stock.latest_price)
+  end
+end
