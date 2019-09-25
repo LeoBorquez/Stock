@@ -1,6 +1,8 @@
-<div class="results-block">
-  <%= bootstrap_flash %>
-</div>
+<%= if params[:action] == 'search' %> <!-- display flash only if called by search(stocks_controller) -->
+  <div class="results-block">
+    <%= bootstrap_flash %>
+  </div>
+<% end %>
 
 <% if @stock %>
   <div class="well results-block">
