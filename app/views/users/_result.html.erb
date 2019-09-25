@@ -7,5 +7,7 @@
     <strong>Symbol:</strong> <%= @stock.ticker %>
     <strong>Company name</strong> <%= @stock.name %>
     <strong>Lastest price</strong> <%= @stock.last_price %>
+    <%= link_to "Add stock", user_stocks_path(user: current_user, stock_ticker: @stock.ticker),
+                class: "btn btn-xs btn-success", method: :post %>
   </div>
 <% end %>
