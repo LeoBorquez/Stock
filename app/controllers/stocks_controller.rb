@@ -12,9 +12,5 @@ class StocksController < ApplicationController
     end
   end
 
-  def destroy
-
-  end
-
 end
 
