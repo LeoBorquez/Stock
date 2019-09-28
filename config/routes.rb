@@ -7,8 +7,11 @@ Rails.application.routes.draw do
   get 'portafolio', to: 'users#portafolio'
   get 'stocks', to: 'stocks#search'
   get 'friends', to: 'users#friends'
+  get 'search_friends', to: 'users#search'
 
   resources :user_stocks, only: [:create, :destroy]
+  resources :users, only: [:show]
+  resources :friendships
 
 
 end
