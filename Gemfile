@@ -33,6 +33,7 @@ gem 'therubyracer'
 gem 'devise-bootstrap-views'
 gem 'rename'
 gem 'stock_quote'
+gem 'figaro'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
